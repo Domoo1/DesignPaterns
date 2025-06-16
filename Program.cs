@@ -1,7 +1,5 @@
-﻿using free.src.DesignPatterns.Behavioral.Template.StrategyPattern;
+﻿using free.src.DesignPatterns.Behavioral.Template.TemplateMethod;
 
 var tea = new Tea();
-var coffe = new Coffee();
 
-var beverageMaker = new BeverageMaker(tea);
-beverageMaker.MakeBeverage();
+tea.Prepare();
